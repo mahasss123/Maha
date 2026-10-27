@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+nav {
+    background-color: black;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: rgb(255, 213, 0);
+    margin: 0;
+}
+
+.nav-links a {
+    color:  rgb(255, 213, 0);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+}
+.contact-section {
+    padding: 40px 5%;
+    background: rgb(255, 213, 0);
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #222;
+}
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.contact-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact-card h2 {
+    color: #123c69;
+}
+.contact-card p {
+    color: #555;
+    font-size: 16px;
+}
+.contact-message {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.contact-message h2 {
+    color: #123c69;
+}
+.contact-message p {
+    line-height: 1.8;
+    color: #444;
+}
+footer {
+    background: #123c69;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+@media (max-width: 600px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    h1 {
+        font-size: 30px;
+    }
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 50px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+.footer-box h2 {
+    font-size: 25px;
+}
+
+.footer-box hr {
+    width: 120px;
+    margin-left: 110px;
+    border: 1px solid white;
+}
+
+.footer-box p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-details div {
+    width: 40%;
+    border-left:2px solid white;
+    padding-right: 20px;
+}
+
+.contact-details h3 {
+    font-size: 16px;
+}
+
+.contact-details p {
+    font-size: 18px;
+}
+
+
+.copyright {
+    border-top: 1px solid #555;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}

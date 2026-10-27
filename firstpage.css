@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+
+nav {
+    background-color: black;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: rgb(255, 213, 0);
+    margin: 0;
+}
+
+.nav-links a {
+    color:  rgb(255, 213, 0);
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+
+
+.video-box {
+    width: 100%;
+}
+
+.video-box video {
+    width: 100%;
+    height: 820px;
+    object-fit: cover;
+  
+}
+
+
+.welcome {
+    text-align: center;
+   
+}
+
+.welcome h1 {
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+.welcome h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.welcome p {
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.benefits {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+}
+
+.benefit-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.benefit {
+    width: 48%;
+    background-color: rgb(255, 213, 0);
+    padding: 100px;
+    border-radius: 8px;
+}
+
+.benefit p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+
+.feedback {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feedback-box {
+    width: 380px;
+    padding: 50px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 8px;
+}
+
+.feedback-box p {
+    line-height: 1.6;
+}
+
+.feedback-box strong {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 50px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+.footer-box h2 {
+    font-size: 25px;
+}
+
+.footer-box hr {
+    width: 120px;
+    margin-left: 0;
+    border: 1px solid white;
+}
+
+.footer-box p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-details div {
+    width: 30%;
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+
+.contact-details h3 {
+    font-size: 16px;
+}
+
+.contact-details p {
+    font-size: 18px;
+}
+
+
+.copyright {
+    border-top: 1px solid #555;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
