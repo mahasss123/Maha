@@ -1,0 +1,252 @@
+
+ *{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #222;
+}
+
+
+nav {
+    background-color: black;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;           
+    z-index: 1000;  
+}
+
+nav h2 {
+    color: rgb(255, 213, 0);
+    margin: 0;
+}
+
+.nav-links a {
+    color:  rgb(255, 213, 0);
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+
+
+.trending-tours {
+    padding: 40px 5%;
+    background: rgb(255, 213, 0);
+}
+.trending-tours > h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.tour-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.tour-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+.tour-card:hover {
+    transform: translateY(-5px);
+}
+
+.tour-link {
+    display: block;
+    height: 100%;
+    color: #222;
+    text-decoration: none;
+}
+.tour-card img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.tour-details {
+    padding: 18px;
+}
+.location {
+    color: #555;
+    font-size: 14px;
+}
+.tour-details h2 {
+    font-size: 20px;
+    margin: 12px 0;
+}
+.duration {
+    color: #666;
+    font-size: 15px;
+}
+
+.view-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 11px 20px;
+    background: #ff5722;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.package-info {
+    display: none;
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 30px;
+    background: #fff8e1;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.package-info:target {
+    display: block;
+    scroll-margin-top: 20px;
+}
+
+.package-info h1 {
+    color: #8b4513;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.package-info h3 {
+    color: #555;
+}
+
+.package-info h2 {
+    margin-top: 25px;
+    margin-bottom: 8px;
+    color: #8b4513;
+    font-size: 21px;
+}
+
+.package-info p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-top: 5px;
+}
+
+.close-btn {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    padding: 10px 15px;
+    background: #e53935;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.feedback {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: white;
+}
+
+.feedback-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feedback-box {
+    width: 380px;
+    padding: 50px;
+    background-color: rgb(255, 213, 0);
+    border-radius: 8px;
+}
+
+.feedback-box p {
+    line-height: 1.6;
+}
+
+.feedback-box strong {
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 50px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-box {
+    width: 30%;
+}
+
+.footer-box h2 {
+    font-size: 25px;
+}
+
+.footer-box hr {
+    width: 120px;
+    margin-left: 0;
+    border: 1px solid white;
+}
+
+.footer-box p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contact-details div {
+    width: 30%;
+    border-left: 2px solid white;
+    padding-left: 20px;
+}
+
+.contact-details h3 {
+    font-size: 16px;
+}
+
+.contact-details p {
+    font-size: 18px;
+}
+
+
+.copyright {
+    border-top: 1px solid #555;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}       
